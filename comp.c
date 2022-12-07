@@ -9,6 +9,7 @@
 int comp_exec(char **tokens, char *ptr, char **env)
 {
     char *comm = NULL;
+    unsigned int i = 0;
     pid_t child_pid;
     int status;
     if (strcmp(tokens[0], "exit") == 0)
@@ -16,6 +17,16 @@ int comp_exec(char **tokens, char *ptr, char **env)
         free_array(tokens);
         free(ptr);
         exit(0);
+    }
+    if (strcmp(tokens[0], "env") == 0)
+    {
+        while (env[i])
+        {
+            write(1, env[i], strlen(env[i]));
+            write(1, "\n", 1);
+            i++;
+        }
+        return (1);
     }
     child_pid = fork();
     comm = get_location(tokens[0]);
@@ -33,7 +44,6 @@ int comp_exec(char **tokens, char *ptr, char **env)
     {
         wait(&status);
         free_array(tokens);
-        free(comm);
     }
     return (1);
 }
