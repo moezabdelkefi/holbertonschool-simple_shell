@@ -1,4 +1,4 @@
-PROJECT SIMPLE SHELL 
+PROJECT SIMPLE SHELL
 ![1587095871027](https://user-images.githubusercontent.com/113900578/205889744-19a2b195-c2f7-46a8-b583-76469237c8bf.png)
 
 description:
@@ -29,7 +29,7 @@ Same error with your program hsh:
 Compilation:
 
                                                gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-                                               
+
 List of allowed functions and system calls:
 
 access (man 2 access)
@@ -38,7 +38,7 @@ close (man 2 close)
 closedir (man 3 closedir)
 execve (man 2 execve)
 exit (man 3 exit)
-_exit (man 2 _exit)
+\_exit (man 2 \_exit)
 fflush (man 3 fflush)
 fork (man 2 fork)
 free (man 3 free)
@@ -54,15 +54,18 @@ perror (man 3 perror)
 read (man 2 read)
 readdir (man 3 readdir)
 signal (man 2 signal)
-stat (__xstat) (man 2 stat)
-lstat (__lxstat) (man 2 lstat)
-fstat (__fxstat) (man 2 fstat)
+stat (**xstat) (man 2 stat)
+lstat (**lxstat) (man 2 lstat)
+fstat (\_\_fxstat) (man 2 fstat)
 strtok (man 3 strtok)
 wait (man 2 wait)
 waitpid (man 2 waitpid)
 wait3 (man 2 wait3)
 wait4 (man 2 wait4)
 write (man 2 write)
+
+Flowchart:
+
 
 License:
 
