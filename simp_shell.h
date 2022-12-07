@@ -17,5 +17,6 @@ int comp_exec(char **tokens, char *ptr, char **env);
 int exec(char **tokens, char **env);
 void free_array(char **tokens);
 char *get_location(char* command);
+char *var_finder(char *var, char **env);
 
 #endif
