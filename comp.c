@@ -17,8 +17,8 @@ int comp_exec(char **tokens, char *ptr, char **env)
         free(ptr);
         exit(0);
     }
-    child_pid = fork();
     comm = get_location(tokens[0]);
+    child_pid = fork();
     if (child_pid == -1)
         perror("child failed");
     else if (child_pid == 0)
@@ -26,11 +26,13 @@ int comp_exec(char **tokens, char *ptr, char **env)
         if (execve(comm, tokens, env) == -1)
         {
             perror("./hsh");
+            exit(EXIT_FAILURE);
         }
     }
     else
     {
         wait(&status);
+        free_array(tokens);
     }
-    return (1);
+    return (0);
 }
