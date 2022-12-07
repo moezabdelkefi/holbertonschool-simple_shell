@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(int ac, char **av, char **env);
+int main(__attribute__((unused)) int argc, __attribute__((unused)) char *argv[], char *envp[]);
 char **tokenization(char *ptr, char *delim);
 int comp_exec(char **tokens, char *ptr, char **env);
 int exec(char **tokens, char **env);
