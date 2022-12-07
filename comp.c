@@ -27,14 +27,14 @@ int comp_exec(char **tokens, char *ptr, char **env)
 		if (execve(comm, tokens, env) == -1)
 		{
 			perror("./hsh");
-			free(comm);
-			free_array(tokens);
-			exit(98);
+			exit(1);
 		}
 	}
 	else
 	{
 		wait(&status);
+		free_array(tokens);
+		free(ptr);
 	}
 	return (1);
 }
