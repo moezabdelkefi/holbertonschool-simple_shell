@@ -29,6 +29,12 @@ Same error with your program hsh:
 Compilation:
 
                                                gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+Built-Ins 🔨:
+
+The following built-ins are supported by the Mr. Robot:
+
+env - Print the current environment
+exit - exit program sucessfully
 
 List of allowed functions and system calls:
 
