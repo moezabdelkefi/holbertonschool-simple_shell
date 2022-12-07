@@ -17,8 +17,8 @@ int comp_exec(char **tokens, char *ptr, char **env)
 		free(ptr);
 		exit(0);
 	}
-	child_pid = fork();
 	comm = get_location(tokens[0]);
+	child_pid = fork();
 	if (child_pid == -1)
 		perror("child failed");
 	else if (child_pid == 0)
