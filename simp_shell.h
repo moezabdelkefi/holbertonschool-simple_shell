@@ -11,16 +11,24 @@
 #include <stdio.h>
 #include <string.h>
 
+<<<<<<< HEAD
 
 
 int main(int ac, char **av, char **env);
+=======
+int main(__attribute__((unused)) int argc, __attribute__((unused)) char *argv[], char *envp[]);
+>>>>>>> refs/remotes/origin/main
 char **tokenization(char *ptr, char *delim);
 int comp_exec(char **tokens, char *ptr, char **env);
 int exec(char **tokens, char **env);
 void free_array(char **tokens);
 char *get_location(char* command);
+<<<<<<< HEAD
 int _path(char *first, char **input, char **env, int *ex_st);
 void _execute(int status, char **args, int *ex_st, int *tal);
 void builtins(char *line, char **args, char **env, int *ex_st);
+=======
+char *var_finder(char *var, char **env);
+>>>>>>> refs/remotes/origin/main
 
 #endif
