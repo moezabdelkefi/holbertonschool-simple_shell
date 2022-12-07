@@ -72,7 +72,8 @@ write (man 2 write)
 
 Flowchart:
 
-![79517219-2adbc000-8013-11ea-9835-30bf7c59a41e](https://user-images.githubusercontent.com/113900578/206213606-5f0d6678-72c9-4244-889e-146e68e4a1a5.jpg)
+![79517219-2adbc000-8013-11ea-9835-30bf7c59a41e tw](https://user-images.githubusercontent.com/113900578/206216347-54e7fdfc-1102-424a-9af9-54ef7819c833.jpg)
+
 
 
 License:
