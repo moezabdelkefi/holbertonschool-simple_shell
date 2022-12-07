@@ -26,7 +26,6 @@ int comp_exec(char **tokens, char *ptr, char **env)
         if (execve(comm, tokens, env) == -1)
         {
             perror("./hsh");
-            exit(1);
         }
     }
     else
