@@ -40,7 +40,7 @@ name: sh.
 
 ![Capture d’écran 2022-12-06 011022](https://user-images.githubusercontent.com/113900578/205890033-892cb302-e391-40d3-8215-1ec71aa94b3d.png)
 
-### _Same error with your program hsh:
+### _ Same error with your program hsh:
 
 ![Capture d’écran 2022-12-06 011052](https://user-images.githubusercontent.com/113900578/205890253-2d541474-e872-41d5-976a-9282cf4b9b6a.png)
 
