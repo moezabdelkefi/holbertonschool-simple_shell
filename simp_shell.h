@@ -17,5 +17,4 @@ char **tokenization(char *ptr, char *delim);
 int comp_exec(char **tokens, char *ptr, char **env);
 void free_array(char **tokens);
 char *get_location(char *command);
-void func_printenv(char **environ);
 #endif

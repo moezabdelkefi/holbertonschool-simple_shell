@@ -40,7 +40,6 @@ int comp_exec(char **tokens, char *ptr, char **env)
             waitpid(child_pid, &status, WUNTRACED);
         }while (!WIFEXITED(status) && !WIFSIGNALED(status));
         free_array(tokens);
-        free(comm);
     }
     else
     {
