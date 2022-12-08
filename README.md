@@ -79,9 +79,7 @@ exit - exit program sucessfully
 
 ## Examples:
 
-Here are shown some examples of the usage of the Shell:
-
-.ls 
+### Here are shown some examples of the usage of the Shell:
 
 $ ls
 
