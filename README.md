@@ -3,7 +3,7 @@
 
 description:
 
-in this project im going to write my own simple UNIX command interpreter, This function is going to work on intractive_mode and non intractive_mode.
+In this project im going to write my own simple UNIX command interpreter, This function is going to work on intractive_mode and non intractive_mode.
 
 Requirements:
 
