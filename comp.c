@@ -31,6 +31,8 @@ int comp_exec(char **tokens, char *ptr, char **env)
         if (execve(comm, tokens, env) == -1)
         {
             perror("./hsh");
+            free(ptr);
+            free_array(tokens);
             exit(EXIT_FAILURE);
         }
     }
