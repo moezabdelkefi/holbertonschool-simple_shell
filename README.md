@@ -125,6 +125,8 @@ https://github.com/iheb-drihmi
 
 This project is licensed under the Holberton School Software Engineering Program.
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+| Column 1 Header | Column 2 Header |
+| --------------- | --------------- |
+| Row 1 Column 1 | Row 1 Column 2 |
+| Row 2 Column 1 | Row 2 Column 2 |
+| Row 3 Column 1 | Row 3 Column 2 |
