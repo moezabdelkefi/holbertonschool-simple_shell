@@ -18,7 +18,7 @@ int comp_exec(char **tokens, char *ptr, char **env)
         free(ptr);
         exit(0);
     }
-    if (strcmp(tokens[0], "env") == 0)
+    if (strcmp(tokens[0], "env") == 1)
     {
         env_func();
     }
@@ -41,6 +41,7 @@ int comp_exec(char **tokens, char *ptr, char **env)
         wait(&status);
         free_array(tokens);
         free(ptr);
+        exit(EXIT_FAILURE);
     }
     return (0);
 }
