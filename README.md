@@ -108,47 +108,47 @@ Here are shown some examples of the usage of the Shell:
 
 $ ls
 
-AUTHORS  README.md  comp.c  free_array.c  hsh  main.c  man_1_simple_shell  path.c  simp_shell.h  token.c  env.c
+             AUTHORS  README.md  comp.c  free_array.c  hsh  main.c  man_1_simple_shell  path.c  simp_shell.h  token.c  env.c
 
 $ /bin/ls
 
-AUTHORS  README.md  comp.c  free_array.c  hsh  main.c  man_1_simple_shell  path.c  simp_shell.h  token.c  env.c
+             AUTHORS  README.md  comp.c  free_array.c  hsh  main.c  man_1_simple_shell  path.c  simp_shell.h  token.c  env.c
 
 $ ls -l
 
-total 48
--rwxr-xr-x 1 root root 17040 Dec  8 05:41 hsh
+                                    total 48
+                                           -rwxr-xr-x 1 root root 17040 Dec  8 05:41 hsh
 
-drwxr-xr-x 1 root root  4096 Dec  8 05:41 .
+                                            drwxr-xr-x 1 root root  4096 Dec  8 05:41 .
 
-drwx------ 1 root root  4096 Dec  8 04:35 ..
+                                              drwx------ 1 root root  4096 Dec  8 04:35 ..
 
-drwxr-xr-x 1 root root  4096 Dec  8 02:04 .git
+                                            drwxr-xr-x 1 root root  4096 Dec  8 02:04 .git
 
--rw-r--r-- 1 root root   787 Dec  8 02:04 comp.c
+                                            -rw-r--r-- 1 root root   787 Dec  8 02:04 comp.c
 
-drwxr-xr-x 1 root root  4096 Dec  8 01:50 .vscode
+                                             drwxr-xr-x 1 root root  4096 Dec  8 01:50 .vscode
 
--rw-r--r-- 1 root root   490 Dec  8 01:46 simp_shell.h
+                                             -rw-r--r-- 1 root root   490 Dec  8 01:46 simp_shell.h
 
--rw-r--r-- 1 root root   653 Dec  8 01:45 token.c
+                                             -rw-r--r-- 1 root root   653 Dec  8 01:45 token.c
 
--rw-r--r-- 1 root root  3308 Dec  8 01:45 README.md
+                                             -rw-r--r-- 1 root root  3308 Dec  8 01:45 README.md
 
--rw-r--r-- 1 root root   206 Dec  8 01:45 AUTHORS
+                                             -rw-r--r-- 1 root root   206 Dec  8 01:45 AUTHORS
 
--rw-r--r-- 1 root root  1014 Dec  7 06:03 man_1_simple_shell
+                                              -rw-r--r-- 1 root root  1014 Dec  7 06:03 man_1_simple_shell
 
--rw-r--r-- 1 root root   603 Dec  7 03:23 main.c
+                                               -rw-r--r-- 1 root root   603 Dec  7 03:23 main.c
 
--rw-r--r-- 1 root root   211 Dec  7 03:19 free_array.c
+                                                -rw-r--r-- 1 root root   211 Dec  7 03:19 free_array.c
 
--rw-r--r-- 1 root root  1030 Dec  7 03:17 path.c
+                                               -rw-r--r-- 1 root root  1030 Dec  7 03:17 path.c
 
 
 $ pwd
 
-/root/holbertonschool-simple_shell
+            /root/holbertonschool-simple_shell
 
 ## Contributors:
 
