@@ -11,11 +11,16 @@ int comp_exec(char **tokens, char *ptr, char **env)
     char *comm = NULL;
     pid_t child_pid;
     int status;
+
     if (strcmp(tokens[0], "exit") == 0)
     {
         free_array(tokens);
         free(ptr);
         exit(0);
+    }
+    if (strcmp(tokens[0], "env") == 0)
+    {
+        env_func();
     }
     comm = get_location(tokens[0]);
     child_pid = fork();
