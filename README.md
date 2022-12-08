@@ -56,13 +56,10 @@ exit - exit program sucessfully
 
 List of allowed functions and system calls:
 
-access (man 2 access)
-
 chdir (man 2 chdir)
 
 close (man 2 close)
 
-closedir (man 3 closedir)
 
 execve (man 2 execve)
 
@@ -70,13 +67,10 @@ exit (man 3 exit)
 
 _exit (man 2 \_exit)
 
-fflush (man 3 fflush)
 
 fork (man 2 fork)
 
 free (man 3 free)
-
-getcwd (man 3 getcwd)
 
 getline (man 3 getline)
 
@@ -84,35 +78,19 @@ getpid (man 2 getpid)
 
 isatty (man 3 isatty)
 
-kill (man 2 kill)
-
 malloc (man 3 malloc)
 
 open (man 2 open)
 
-opendir (man 3 opendir)
-
 perror (man 3 perror)
 
 read (man 2 read)
-
-readdir (man 3 readdir)
-
-signal (man 2 signal)
-
-stat (**xstat) (man 2 stat)
-
-lstat (**lxstat) (man 2 lstat)
-
-fstat (\_\_fxstat) (man 2 fstat)
 
 strtok (man 3 strtok)
 
 wait (man 2 wait)
 
 waitpid (man 2 waitpid)
-
-wait3 (man 2 wait3)
 
 wait4 (man 2 wait4)
 
@@ -122,7 +100,55 @@ write (man 2 write)
 
 ![79517219-2adbc000-8013-11ea-9835-30bf7c59a41e tw](https://user-images.githubusercontent.com/113900578/206216347-54e7fdfc-1102-424a-9af9-54ef7819c833.jpg)
 
+## Examples:
 
+Here are shown some examples of the usage of the Shell:
+
+.ls 
+
+$ ls
+
+             AUTHORS  README.md  comp.c  free_array.c  hsh  main.c  man_1_simple_shell  path.c  simp_shell.h  token.c  env.c
+
+$ /bin/ls
+
+             AUTHORS  README.md  comp.c  free_array.c  hsh  main.c  man_1_simple_shell  path.c  simp_shell.h  token.c  env.c
+
+$ ls -l
+
+                                     total 48
+                                                -rwxr-xr-x 1 root root 17040 Dec  8 05:41 hsh
+
+                                                drwxr-xr-x 1 root root  4096 Dec  8 05:41 .
+ 
+                                                drwx------ 1 root root  4096 Dec  8 04:35 ..
+
+                                                drwxr-xr-x 1 root root  4096 Dec  8 02:04 .git
+
+                                                -rw-r--r-- 1 root root   787 Dec  8 02:04 comp.c
+
+                                                drwxr-xr-x 1 root root  4096 Dec  8 01:50 .vscode
+
+                                                -rw-r--r-- 1 root root   490 Dec  8 01:46 simp_shell.h
+
+                                                -rw-r--r-- 1 root root   653 Dec  8 01:45 token.c
+ 
+                                                -rw-r--r-- 1 root root  3308 Dec  8 01:45 README.md
+
+                                                -rw-r--r-- 1 root root   206 Dec  8 01:45 AUTHORS
+
+                                                -rw-r--r-- 1 root root  1014 Dec  7 06:03 man_1_simple_shell
+
+                                                -rw-r--r-- 1 root root   603 Dec  7 03:23 main.c
+
+                                                -rw-r--r-- 1 root root   211 Dec  7 03:19 free_array.c
+
+                                                -rw-r--r-- 1 root root  1030 Dec  7 03:17 path.c
+
+
+$ pwd
+
+                                                      /root/holbertonschool-simple_shell
 
 ## Contributors:
 
@@ -133,21 +159,7 @@ https://github.com/moezabdelkefi
 
 https://github.com/iheb-drihmi
 
-
-
-
-
-
-
-
-
-
-
 ## License:
 
 This project is licensed under the Holberton School Software Engineering Program.
 
-
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
