@@ -18,7 +18,7 @@ int comp_exec(char **tokens, char *ptr, char **env)
         free(ptr);
         exit(0);
     }
-    if (strcmp(tokens[0], "env") == 1)
+    if (strcmp(tokens[0], "env") == 0)
     {
         env_func();
     }
@@ -26,21 +26,26 @@ int comp_exec(char **tokens, char *ptr, char **env)
     child_pid = fork();
     if (child_pid == -1)
         perror("child failed");
-    else if (child_pid == 0)
+    if (child_pid == 0)
     {
         if (execve(comm, tokens, env) == -1)
         {
             perror("./hsh");
-            free(ptr);
-            free_array(tokens);
-            exit(EXIT_FAILURE);
         }
+    }
+    else if (child_pid > 0)
+    {
+        do
+        {
+            waitpid(child_pid, &status, WUNTRACED);
+        }while (!WIFEXITED(status) && !WIFSIGNALED(status));
+        free_array(tokens);
+        free(comm);
     }
     else
     {
-        wait(&status);
         free_array(tokens);
-        free(ptr);
+        free(comm);
         exit(EXIT_FAILURE);
     }
     return (0);
