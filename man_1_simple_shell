@@ -29,3 +29,4 @@ Lists files in the current directory according to the flags given by user
 .SS SHELL BUILTIN COMMANDS
 env - prints environmental variables
 exit - exits out of simple shell and returns to user's original shell
+
