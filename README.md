@@ -1,9 +1,31 @@
-                                                               PROJECT SIMPLE SHELL
+                                                      PROJECT SIMPLE SHELL
 ![1587095871027](https://user-images.githubusercontent.com/113900578/205889744-19a2b195-c2f7-46a8-b583-76469237c8bf.png)
+
+Table of contents :
+
+description
+
+Compilation
+
+Flowchart
+
+Contributors
+
+License
+
+
+
+
+
+
+
+
+
+
 
 description:
 
-in this project im going to write my own simple UNIX command interpreter, This function is going to work on intractive_mode and non intractive_mode.
+In this project im going to write my own simple UNIX command interpreter, This function is going to work on intractive_mode and non intractive_mode.
 
 Requirements:
 
@@ -16,6 +38,23 @@ Requirements:
 .No more than 5 functions per file.
 .All your header files should be include guarded.
 .Use system calls only when you need to (why?).   
+
+Features:
+
+.Display a prompt and wait for the user to type a command. A command line always ends with a new line.
+
+.The prompt is displayed again each time a command has been executed.
+
+.The command lines are simple, no semicolons, no pipes, no redirections or any other advanced features.
+
+.The command lines are made only of one word. No arguments will be passed to programs.
+
+.If an executable cannot be found, print an error message and display the prompt again.
+
+.Handle errors.
+
+.You have to handle the “end of file” condition (Ctrl+D)
+
 
 name: sh.
 Example of error with sh:
@@ -73,6 +112,25 @@ write (man 2 write)
 Flowchart:
 
 ![79517219-2adbc000-8013-11ea-9835-30bf7c59a41e tw](https://user-images.githubusercontent.com/113900578/206216347-54e7fdfc-1102-424a-9af9-54ef7819c833.jpg)
+
+
+
+Contributors:
+
+
+https://github.com/s4iTen
+
+https://github.com/moezabdelkefi
+
+https://github.com/iheb-drihmi
+
+
+
+
+
+
+
+
 
 
 
