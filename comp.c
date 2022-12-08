@@ -38,6 +38,7 @@ int comp_exec(char **tokens, char *ptr, char **env)
     {
         wait(&status);
         free_array(tokens);
+        free(ptr);
     }
     return (0);
 }
