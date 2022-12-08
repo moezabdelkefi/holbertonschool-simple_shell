@@ -54,9 +54,15 @@ name: sh.
 env - Print the current environment
 exit - exit program sucessfully
 
-## List of allowed functions and system calls:
-Function Name| Description
+## List of  functions and system calls:
 
+| function name |description|
+| --------------- | --------------- |
+| tokenization.c|extract token from the getline command|
+| main.c |Prints '$' and waits for a user's input, Exit the shell|
+|comp.c |  compare string and execute the command |
+|free_array.c | free array of array|
+| path.|get the location of the command|
 
 ## Flowchart:
 
@@ -125,8 +131,3 @@ https://github.com/iheb-drihmi
 
 This project is licensed under the Holberton School Software Engineering Program.
 
-| Column 1 Header | Column 2 Header |
-| --------------- | --------------- |
-| Row 1 Column 1 | Row 1 Column 2 |
-| Row 2 Column 1 | Row 2 Column 2 |
-| Row 3 Column 1 | Row 3 Column 2 |
