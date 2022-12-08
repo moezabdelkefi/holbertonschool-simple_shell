@@ -1,11 +1,11 @@
-Project simple shell
+#                                                          Project simple shell
 ![1587095871027](https://user-images.githubusercontent.com/113900578/205889744-19a2b195-c2f7-46a8-b583-76469237c8bf.png)
 
 description:
 
 In this project im going to write my own simple UNIX command interpreter, This function is going to work on intractive_mode and non intractive_mode.
 
-Requirements:
+## Requirements:
 
 .Allowed editors: vi, vim, emacs.
 .All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89.
@@ -17,7 +17,7 @@ Requirements:
 .All your header files should be include guarded.
 .Use system calls only when you need to (why?).   
 
-Features:
+## Features:
 
 .Display a prompt and wait for the user to type a command. A command line always ends with a new line.
 
@@ -35,7 +35,7 @@ Features:
 
 
 name: sh.
-Example of error with sh:
+## Example of error with sh:
 
 ![Capture d’écran 2022-12-06 011022](https://user-images.githubusercontent.com/113900578/205890033-892cb302-e391-40d3-8215-1ec71aa94b3d.png)
 
@@ -43,12 +43,12 @@ Same error with your program hsh:
 
 ![Capture d’écran 2022-12-06 011052](https://user-images.githubusercontent.com/113900578/205890253-2d541474-e872-41d5-976a-9282cf4b9b6a.png)
 
-Compilation:
+## Compilation:
 
                                                gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-Built-Ins 🔨:
+## Built-Ins 🔨:
 
-The following built-ins are supported by the Mr. Robot:
+### The following built-ins:
 
 env - Print the current environment
 exit - exit program sucessfully
@@ -117,13 +117,13 @@ wait4 (man 2 wait4)
 
 write (man 2 write)
 
-Flowchart:
+## Flowchart:
 
 ![79517219-2adbc000-8013-11ea-9835-30bf7c59a41e tw](https://user-images.githubusercontent.com/113900578/206216347-54e7fdfc-1102-424a-9af9-54ef7819c833.jpg)
 
 
 
-Contributors:
+## Contributors:
 
 
 https://github.com/s4iTen
