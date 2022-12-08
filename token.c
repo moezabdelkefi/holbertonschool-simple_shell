@@ -1,10 +1,8 @@
 #include "simp_shell.h"
 /**
  * tokenization - Extract tokens from the getline command
- *
  * @ptr: String of the command line
  * @delim: Delimiter
- *
  * Return: Array of tokens
  */
 
