@@ -1,7 +1,7 @@
 #                                                          Project simple shell
 ![1587095871027](https://user-images.githubusercontent.com/113900578/205889744-19a2b195-c2f7-46a8-b583-76469237c8bf.png)
 
-description:
+## description:
 
 In this project im going to write my own simple UNIX command interpreter, This function is going to work on intractive_mode and non intractive_mode.
 
