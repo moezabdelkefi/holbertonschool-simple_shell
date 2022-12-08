@@ -46,7 +46,7 @@ name: sh.
 
 ## Compilation:
 
-                                               gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+                                            gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ## Built-Ins 🔨:
 
 ### The following built-ins:
@@ -54,9 +54,16 @@ name: sh.
 env - Print the current environment
 exit - exit program sucessfully
 
-## List of allowed functions and system calls:
-Function Name| Description
+## List of  functions:
 
+| function name | description|
+| --------------- | --------------- |
+| tokenization | extract token from the getline command|
+| main | Prints '$' and waits for a user's input, Exit the shell|
+|comp_exec | compare string and execute the command |
+|free_array | free array of array|
+| get location | get the location of the command|
+|env_func | print the environment variable|
 
 ## Flowchart:
 
@@ -125,8 +132,3 @@ https://github.com/iheb-drihmi
 
 This project is licensed under the Holberton School Software Engineering Program.
 
-| Column 1 Header | Column 2 Header |
-| --------------- | --------------- |
-| Row 1 Column 1 | Row 1 Column 2 |
-| Row 2 Column 1 | Row 2 Column 2 |
-| Row 3 Column 1 | Row 3 Column 2 |
