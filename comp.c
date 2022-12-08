@@ -35,7 +35,6 @@ int comp_exec(char **tokens, char *ptr, char **env)
 	{
 		int status;
 		wait(&status);
-		free(ptr);
 		free_array(tokens);
 	}
 	else
