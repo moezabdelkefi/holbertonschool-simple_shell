@@ -46,15 +46,17 @@ In this project im going to write my own simple UNIX command interpreter, This f
 name: sh.
 ## Example of error with sh:
 
+## _ work like this in interactive mode:
+
 ![Capture d’écran 2022-12-06 011022](https://user-images.githubusercontent.com/113900578/205890033-892cb302-e391-40d3-8215-1ec71aa94b3d.png)
 
-### _ Same error with your program hsh:
+## _ Same error with non-interactive mode:
 
 ![Capture d’écran 2022-12-06 011052](https://user-images.githubusercontent.com/113900578/205890253-2d541474-e872-41d5-976a-9282cf4b9b6a.png)
 
 ## Compilation:
 
-                                            gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+                                         gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 ## Built-Ins 🔨:
 
 ### The following built-ins:
@@ -79,9 +81,7 @@ exit - exit program sucessfully
 
 ## Examples:
 
-Here are shown some examples of the usage of the Shell:
-
-.ls 
+### Here are shown some examples of the usage of the Shell:
 
 $ ls
 
