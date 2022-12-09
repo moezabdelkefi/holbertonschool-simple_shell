@@ -8,6 +8,7 @@ void env_func(void)
 
 	while (environ[i] != NULL)
 	{
-		printf("%s\n", environ[i++]);
+		printf("%s\n", environ[i]);
+		i++;
 	}
 }
